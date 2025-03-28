@@ -7,6 +7,7 @@ const router = express.Router();
 //router.post('/', createUser);
 router.delete('/:id', deleteUser);
 router.post('/', createUser);
+router.post('/login', login);
 
 /**
  * @swagger
